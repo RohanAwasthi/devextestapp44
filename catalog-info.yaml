@@ -1,0 +1,26 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "devextestapp44"
+  description: "devextestapp44"
+  labels:
+    system: web-apps
+  links:
+    - url: https://github.com/RohanAwasthi/devextestapp44
+      title: "devextestapp44"
+      icon: code
+  tags:
+    - java
+    - azure
+    - applicationtype-webapplication
+  annotations:
+    jenkins.io/github-folder: 'apache-azure-app/devextestapp44'
+    jenkins.io/job-full-name: 'apache-azure-app/devextestapp44'
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug:  RohanAwasthi/devextestapp44
+    backstage.io/linguist: https://github.com/RohanAwasthi/devextestapp44
+    azure.com/tag-selector: 'pid/devextestapp44'
+spec:
+  type: service
+  lifecycle: development
+  owner: group:default/ey
